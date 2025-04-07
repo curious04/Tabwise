@@ -1,7 +1,5 @@
 # Smart Tab Manager Plus
 
-![Smart Tab Manager Plus Logo](icons/icon128.jpeg)
-
 A powerful Chrome extension that revolutionizes the way you manage your browser tabs with AI-powered grouping, intelligent hibernation, and insightful analytics.
 
 ## 🌟 Features
