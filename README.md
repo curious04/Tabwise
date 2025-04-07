@@ -31,7 +31,7 @@ A powerful Chrome extension that revolutionizes the way you manage your browser 
 ### Development Version
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/smart-tab-manager-plus.git
+   git clone https://github.com/curious04/Tabwise.git
    ```
 
 2. Open Chrome and navigate to `chrome://extensions/`
