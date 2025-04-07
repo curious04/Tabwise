@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Tab Manager Plus",
+    "version": "1.0",
+    "description": "An intelligent tab manager with AI-powered grouping, hibernation, and analytics",
+    "permissions": [
+        "tabs",
+        "storage",
+        "scripting",
+        "tabGroups"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.jpeg",
+            "48": "icons/icon48.jpeg",
+            "128": "icons/icon128.jpeg"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icons/icon16.jpeg",
+        "48": "icons/icon48.jpeg",
+        "128": "icons/icon128.jpeg"
+    }
+}

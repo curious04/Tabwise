@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Tab Manager Plus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Smart Tab Manager Plus</h1>
+            <input type="text" id="searchTabs" placeholder="Search tabs...">
+        </div>
+
+        <div class="tab-stats">
+            <div class="stat-item">
+                <span class="stat-label">Open Tabs:</span>
+                <span id="tabCount" class="stat-value">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Memory Saved:</span>
+                <span id="memorySaved" class="stat-value">0 MB</span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="groupTabs">Group Similar Tabs</button>
+            <button id="hibernateInactive">Hibernate Inactive</button>
+        </div>
+
+        <div id="tabList" class="tab-list">
+            <!-- Tabs will be listed here dynamically -->
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
